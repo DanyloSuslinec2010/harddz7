@@ -1,0 +1,16 @@
+/* Селектор для посилань, де значення href починається з https */
+a[href^="https"] {
+    color: red;
+  }
+  
+  /* Селектор для <p>, який іде безпосередньо після <ul> */
+  ul + p {
+    font-size: 24px;
+  }
+  :root {
+    --main-color: #HEX1;
+    --accent-color: #HEX2;
+    --background-color: #HEX3;
+   
+  }
+  
